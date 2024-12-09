@@ -1,0 +1,24 @@
+.navbar {
+    width: calc(100% - var(--sidebar-width));
+    height: var(--navbar-height);
+    background-color: white;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: var(--sidebar-width);
+    z-index: 1000;
+  }
+  
+  .navbar .title {
+    font-size: var(--font-size-large);
+    font-weight: bold;
+  }
+  
+  .navbar .user-info {
+    font-size: var(--font-size-medium);
+  }
+  

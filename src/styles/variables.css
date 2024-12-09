@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #4A90E2; /* 메인 색상 */
+    --secondary-color: #f4f6f8; /* 배경 색상 */
+    --text-color: #333333; /* 텍스트 색상 */
+    --border-color: #dcdcdc; /* 경계선 색상 */
+    --hover-color: #e6f7ff; /* 버튼 및 행 hover 색상 */
+    --font-family: 'Arial', sans-serif;
+  
+    --sidebar-width: 250px;
+    --navbar-height: 50px;
+  
+    --font-size-small: 12px;
+    --font-size-medium: 16px;
+    --font-size-large: 20px;
+  }
+  

@@ -1,0 +1,28 @@
+.customer-list {
+    margin-top: calc(var(--navbar-height) + 20px);
+    margin-left: var(--sidebar-width);
+    padding: 20px;
+  }
+  
+  .customer-list table {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .customer-list .add-button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: var(--font-size-medium);
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .customer-list .add-button:hover {
+    background-color: #357ABD;
+  }
+  
